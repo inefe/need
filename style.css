@@ -1,0 +1,104 @@
+
+.active{
+    color: #171817;
+   }
+
+h1, p, h2 {
+
+  font-family: 'Jura', sans-serif;
+}
+
+h1, nav {
+
+  text-align: center;
+}
+
+.nav li {
+
+  display: inline;
+}
+
+.fon  {
+   background-color: #ADD8E6;
+}
+
+footer {
+  border-top: 1px solid #aaaaaa;
+  background-color: #CCCCFF;
+}
+footer a {
+
+  text-decoration: none;
+  font-family: 'Jura', sans-serif;
+  color: #1f201f;
+  
+}
+.footer li {
+
+  display: inline-block;
+}
+
+
+.footer{
+  text-align: center;
+		
+}
+
+.footer li:nth-child(2){
+  margin-left: 50px;
+  margin-right: 40px;
+}
+.nav a {
+
+  text-decoration: none;
+  font-family: 'Jura', sans-serif;
+  color: #4b0082;
+  display: inline-block;
+  background-color: #e6e6fa;
+  padding: 10px 20px;
+  border-bottom: 5px solid rgb(20, 20, 20);
+}
+
+
+.info {
+     text-align: center;
+     font-family: 'Jura', sans-serif;
+     margin: 1em;
+     
+}
+
+.history{
+    text-align: center;
+    font-family: 'Jura', sans-serif;
+}
+
+.weather {
+   margin: 1em;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.photo img {
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #008B8B; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+  height: 500px; 
+  width: 350px;
+  
+}
+.places{
+ margin: 1em;
+}
+
+.places img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 400px; 
+  width: 600px;
+}
+
